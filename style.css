@@ -1,0 +1,60 @@
+#gme 
+{
+    margin-top:200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    max-width:1000px;
+    max-height: 500px;
+}
+
+
+#gme button
+{
+    border:nome;
+    opacity:1;
+    width:20%;
+    font-size:60px;
+    cursor:pointer;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#gme button:hover
+{
+    opacity:1;
+    font-size: 70px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#escore
+{
+    font-size:26px;
+    max-width:500px;
+    min-height:32px;
+    margin:5px auto;
+}
+
+#escore:before,
+#escore:after
+{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.klmn
+{
+    float:left;
+    width:33.33%;
+    text-align:center;
+}
+
+#outCome
+{
+    font-size:30px;
+    margin:30px auto;
+    text-align:center;
+    min-height:75px;
+}
