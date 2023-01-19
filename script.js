@@ -8,11 +8,12 @@ var buttons =
 ];
 
 for(let i = 0; i < buttons.length; i++)
-{
+{   
     let button = document.createElement('button');
     button.appendChild(document.createTextNode(buttons[i].icon));
     document.getElementById('gme').appendChild(button);
     button.addEventListener('click', function() { choice(i); });
+
 }
 
 function choice(index)
@@ -24,15 +25,16 @@ function choice(index)
     if(user.beats.hasOwnProperty(pc.name))
     {
         increase('won');
+        
         result.innerHTML = 'You Won!<br>';
-        result.innerHTML += [user.icon, user.name, user.beats[pc.name], pc.name, pc.icon].join(' ');
+        result.innerHTML += 'Reason:' + [user.icon, user.name, user.beats[pc.name], pc.name, pc.icon].join(' ');
 
     }
     else if(pc.beats.hasOwnProperty(user.name))
     {
         increase('lost');
         result.innerHTML = 'You Lose!<br>';
-        result.innerHTML += [pc.icon, pc.name, pc.beats[user.name], user.name, user.icon].join(' ');
+        result.innerHTML += 'Reason:' + [pc.icon, pc.name, pc.beats[user.name], user.name, user.icon].join(' ');
     }
     else
     {

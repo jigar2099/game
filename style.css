@@ -1,7 +1,18 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background: #FFCEC2;
+    font-size: 3rem;
+    box-shadow: 0 17px 17px rgb(89, 89, 89);
+    border-radius: 10px;
+  }
+
 #gme 
 {
-    margin-top:200px;
-    margin-left: 300px;
+    margin-top:100px;
+    margin-left: 420px;
     margin-right: 300px;
     margin-bottom: 100px;
     max-width:1000px;
@@ -13,11 +24,13 @@
 {
     border:nome;
     opacity:1;
-    width:20%;
+    width:15%;
     font-size:60px;
     cursor:pointer;
-    background-color: grey;
+    background-color:  rgb(156, 152, 152);
     border-radius: 10px;
+    box-shadow: 0 17px 17px rgb(89, 89, 89);
+    margin-left: 1rem;
 }
 
 #gme button:hover
@@ -34,6 +47,10 @@
     max-width:500px;
     min-height:32px;
     margin:5px auto;
+    background-color: rgb(156, 152, 152);
+    border-color:  rgb(156, 152, 152);
+    border-radius: 10px;
+    box-shadow: 0 17px 17px rgb(59, 59, 59);
 }
 
 #escore:before,
@@ -42,6 +59,7 @@
     content:'';
     display:block;
     clear:both;
+    
 }
 
 .klmn
@@ -49,12 +67,19 @@
     float:left;
     width:33.33%;
     text-align:center;
+    
+    
 }
 
 #outCome
-{
+{   
+    margin-left: 300px;
+    margin-right: 300px;
     font-size:30px;
     margin:30px auto;
     text-align:center;
     min-height:75px;
+    background-color:  rgb(156, 152, 152);
+    border-radius: 10px;
+    box-shadow: 0 17px 17px rgb(78, 77, 77);
 }
